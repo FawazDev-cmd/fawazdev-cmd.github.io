@@ -8,7 +8,7 @@ HTML, CSS, vanilla JavaScript, GSAP, ScrollTrigger, and Font Awesome.
 
 ## Live website
 
-https://fawazdev-cmd.github.io/
+https://portfolio.korexdev.workers.dev
 
 ## Local preview
 
