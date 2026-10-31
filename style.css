@@ -16,7 +16,7 @@
 .experience .organisation-description+.role{margin-top:12px}
 .about-layout{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);align-items:center;gap:clamp(40px,7vw,80px)}
 .about-portrait{max-width:300px;padding:10px;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
-.about-portrait img{width:100%;aspect-ratio:1;object-fit:contain;border-radius:12px}
+.about-portrait img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;border-radius:12px}
 .about-content>p:last-child{margin-top:20px;font-size:1.08rem;line-height:1.85}
 /* Project summaries remain visible without carousel navigation. */
 .hero .eyebrow{letter-spacing:.1em}
