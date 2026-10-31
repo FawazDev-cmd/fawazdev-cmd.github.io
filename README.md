@@ -1,27 +1,39 @@
-﻿# Fawaz Sobowale Portfolio
+# Fawaz Sobowale Portfolio
 
-A static portfolio presenting Fawaz Sobowale's work across machine learning, applied AI, retrieval, automation, and backend engineering.
+Static portfolio for an early-career AI/ML engineer based in Lagos, Nigeria, with a focus on applied AI and Python backend systems.
 
-## Technology
+## Website
 
-HTML, CSS, vanilla JavaScript, GSAP, ScrollTrigger, and Font Awesome.
+https://portfolio.korexdev.workers.dev/
 
-## Live website
+## Featured work
 
-https://portfolio.korexdev.workers.dev
+- [LoreForge](https://github.com/FawazDev-cmd/loreforge): document retrieval and grounded answers.
+- [Fraud Detection API](https://github.com/FawazDev-cmd/Fraud-Detection-API): scikit-learn inference behind FastAPI.
+- [SentinelStream](https://github.com/FawazDev-cmd/sentinelstream): event processing and deterministic incident detection.
+- [Community Intelligence Agent](https://github.com/FawazDev-cmd/community-intelligence-agent): Slack AI automation with reviewed outputs.
 
 ## Local preview
 
-From the project root, run:
+Serve this directory with a static HTTP server, for example:
 
 ```sh
 python -m http.server 8000
 ```
 
-## Featured projects
+Open http://localhost:8000. No build or package installation is required.
 
-- LoreForge
-- SentinelStream
-- Community Intelligence Agent
+## Structure
 
+- `index.html`: content, metadata, and accessible navigation.
+- `style.css`: responsive styling and reduced-motion support.
+- `index.js`: mobile navigation, optional animations, and manual project browsing.
+- `assets/`: portrait, project screenshots, and downloadable CV.
 
+Fonts, icons, and optional GSAP animations use external CDNs. Core content and manual project navigation remain available without GSAP. The download button is labelled CV to match the existing two-page document.
+
+## Publishing and rollback
+
+This repository identifies the public Workers address but contains no deployment workflow or Wrangler configuration. A GitHub merge alone does not establish that the Workers site was updated; check the existing hosting setup before publishing.
+
+Use reviewed commits and pull requests. To undo an applied change, revert its merge or squash commit on a new branch, verify the result, and redeploy through the same hosting setup. Avoid force-pushing shared history.
