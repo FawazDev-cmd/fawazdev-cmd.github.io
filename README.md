@@ -32,9 +32,9 @@ Open http://localhost:8000. No build or package installation is required.
 - `index.html`: content, metadata, and accessible navigation.
 - `style.css`: responsive styling and reduced-motion support.
 - `index.js`: mobile navigation, active section links, and optional animations.
-- `assets/`: portrait, project screenshots, and downloadable CV.
+- `assets/`: portrait, project screenshots, and downloadable résumé and CV.
 
-Fonts, icons, and optional GSAP animations use external CDNs. All four projects and their links remain visible without JavaScript or GSAP. The download button is labelled CV to match the existing two-page document.
+Fonts, icons, and optional GSAP animations use external CDNs. All four projects and their links remain visible without JavaScript or GSAP. The résumé download is one page; the full CV is two pages. Both use professional filenames. The previous résumé asset path serves the current résumé for existing bookmarks.
 
 ## Publishing and rollback
 
