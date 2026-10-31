@@ -4,7 +4,7 @@ Static portfolio for an early-career AI/ML engineer based in Lagos, Nigeria, wit
 
 ## Website
 
-https://portfolio.korexdev.workers.dev/
+https://fawazdev-cmd.github.io/
 
 ## Featured work
 
@@ -34,6 +34,6 @@ Fonts, icons, and optional GSAP animations use external CDNs. Core content and m
 
 ## Publishing and rollback
 
-This repository identifies the public Workers address but contains no deployment workflow or Wrangler configuration. A GitHub merge alone does not establish that the Workers site was updated; check the existing hosting setup before publishing.
+GitHub Pages is the preferred portfolio address. GitHub Pages is enabled for this repository; verify the Pages deployment after merging source changes. The website metadata and profile README use the GitHub-hosted URL.
 
 Use reviewed commits and pull requests. To undo an applied change, revert its merge or squash commit on a new branch, verify the result, and redeploy through the same hosting setup. Avoid force-pushing shared history.
